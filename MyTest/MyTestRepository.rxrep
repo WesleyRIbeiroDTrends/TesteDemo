@@ -1,0 +1,97 @@
+﻿<repository
+id="b04fd61a-8a59-4741-bdf1-29ffa47e7b6e"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a6d12ce4-e88c-4bf6-be02-0461f67437b8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="f70f3b0c-85ec-46ac-a51b-517999a494df"
+		isrooted="True"
+		name="RxMainFrame"
+		refimgid="97070191-a616-46cd-988c-7c383ad657ff"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="318cb2b4-7a5d-459a-83b4-526367d76577"
+			name="RxTabStandard"
+			refimgid="7352b3fc-90d7-4e7c-8c28-9b01a76f14a1"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']
+			</item>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="cb93b54e-51f6-493c-a66c-58b049d1fe92"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="3687c251-75c3-4c80-97e0-759d2ac11552"
+				name="EnterYourName"
+				refimgid="497a494c-8d7a-4bbc-af4d-92a8536d5e3f"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+				</item>
+				<item
+				addcaps="picture,control,nativewindow"
+				capname="picture"
+				id="d363d245-7932-42ab-8925-d26233ebcdbb"
+				name="RxStudioLogo"
+				refimgid="5b133d8c-eaeb-4cf3-8d8e-c1a67414ddd0"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="97fa810e-e16f-404b-8d67-52021caa0d0b"
+				name="LblWelcomeMessage"
+				refimgid="8168aa3c-a12e-4a0a-910a-e34f2942f1dc"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABgSURBVDhPY4CBwMBAv+Dg4P/EYqg2BMAqSAqA
+GXCfVejWA1bhB7jwfTbhI2AN6IAqLiAFg8IMqhUCQIJQJkEAVNuMoZ4UA0Bg1IDhawAQN0O5eAFI
+HYYBpGZnSFJmYAAA/3CKJU4BKYIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
